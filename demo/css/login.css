@@ -1,0 +1,7 @@
+body { font-family: Arial; padding: 20px; }
+.container { max-width: 400px; margin: 0 auto; }
+.form-group { margin-bottom: 15px; }
+label { display: block; margin-bottom: 5px; }
+input { width: 100%; padding: 8px; box-sizing: border-box; }
+button { background: #4CAF50; color: white; padding: 10px; border: none; cursor: pointer; }
+.alert-danger { background: #f8d7da; color: #721c24; padding: 10px; margin-bottom: 15px; border-radius: 4px; }

@@ -1,0 +1,107 @@
+/* styles.css – для index.php */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    padding: 40px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+p {
+    color: #666;
+    margin: 15px 0;
+    line-height: 1.5;
+}
+
+.welcome {
+    background: #f0f4ff;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 20px 0;
+    font-weight: 500;
+    color: #4a6cf7;
+}
+
+.admin-block {
+    background: #fff3e0;
+    border-left: 4px solid #ff9800;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.admin-block strong {
+    color: #ff9800;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    background: #4a6cf7;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: background 0.3s;
+    margin: 5px;
+}
+
+.btn:hover {
+    background: #3a5ce4;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid #4a6cf7;
+    color: #4a6cf7;
+}
+
+.btn-outline:hover {
+    background: #4a6cf7;
+    color: white;
+}
+
+.links {
+    margin-top: 25px;
+}
+
+.links a {
+    color: #4a6cf7;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
