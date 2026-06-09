@@ -37,5 +37,33 @@ session_start();
             </div>
         <?php endif; ?>
     </div>
+<div class="slider">
+    <img src="img/1.jpg" id="slide">
+    <br>
+    <button onclick="prev()">Назад</button>
+    <button onclick="next()">Вперёд</button>
+</div>
+
+<script>
+let num = 1;
+let total = 3;
+
+function show() {
+    document.getElementById('slide').src = 'img/' + num + '.jpg';
+}
+
+function next() {
+    num = (num % total) + 1;
+    show();
+}
+
+function prev() {
+    num--;
+    if(num < 1) num = total;
+    show();
+}
+
+setInterval(next, 3000);
+</script>
 </body>
 </html>
